@@ -269,8 +269,8 @@
     "chokidar": "$chokidar",
     "highcharts": "$highcharts",
     "@flowingcode/google-map": "$@flowingcode/google-map",
-    "@fontsource/cousine": "$@fontsource/cousine",
     "@vaadin/vaadin-element-mixin": "$@vaadin/vaadin-element-mixin",
+    "@fontsource/cousine": "$@fontsource/cousine",
     "line-awesome": "$line-awesome"
   },
   "vaadin": {

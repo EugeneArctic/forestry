@@ -73,7 +73,7 @@ class MainLayout : AppLayout() {
     }
 
     private fun createDrawerContent(): Component {
-        val appName = H2("My App")
+        val appName = H2("Forestry")
         appName.addClassNames("app-name")
         val section = Section(
             appName,

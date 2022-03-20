@@ -34,8 +34,6 @@ class Owner : VerticalLayout() {
                 GoogleMapPoint(gmaps.center.lat + 1, gmaps.center.lon)
             )
         )
-
-
         add(gmaps)
 
         val txt = com.vaadin.flow.component.textfield.TextField().apply {
@@ -43,6 +41,8 @@ class Owner : VerticalLayout() {
             prefixComponent = VaadinIcon.SEARCH.create()
             addThemeVariants(TextFieldVariant.LUMO_SMALL)
             style["width"] = "12em"
+            style["background-color"] = "white"
+            style["border-radius"]= "25px"
         }
 
 
